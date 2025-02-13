@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FDA--Orange--Book--Project
 
 ## Description
@@ -19,4 +18,3 @@ Why is the Orange Book important?
 # Health Data Project: Thyroid Cancer Prediction
 
 In this project, I will analyse a dataset that incorporates statistics related to thyroid cancer risk factors. The aim is to predict the patient outcome based on different indicators.
->>>>>>> 9d8b123c9c02d02b7c1cc57defd714f6a8d858f5
