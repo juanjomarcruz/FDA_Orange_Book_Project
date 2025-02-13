@@ -1,5 +1,7 @@
 # FDA Orange Book Data Project
 
+<img src="4_Images/FDA.jpg" alt="FDA" width="800">
+
 ## Description
 
 In this health data project, I've analyzed a dataset from the FDA Orange Book, a database published by the U.S. Food and Drug Administration (FDA) which provides information on:
