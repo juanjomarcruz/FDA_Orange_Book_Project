@@ -1,4 +1,4 @@
-# FDA--Orange--Book--Project
+# FDA Orange Book Data Project
 
 ## Description
 
