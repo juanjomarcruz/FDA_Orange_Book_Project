@@ -14,7 +14,3 @@ Why is the Orange Book important?
 - Helps pharmacies and healthcare providers determine if a generic drug can be safely substituted for a brand-name drug.
 - Guides generic drug manufacturers on when they can enter the market based on patent and exclusivity expiration
 - Assists regulators and researchers in tracking drug approvals and competition in the pharmaceutical industry.
-=======
-# Health Data Project: Thyroid Cancer Prediction
-
-In this project, I will analyse a dataset that incorporates statistics related to thyroid cancer risk factors. The aim is to predict the patient outcome based on different indicators.
