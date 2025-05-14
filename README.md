@@ -1,6 +1,6 @@
 # FDA Orange Book Data Project
 
-<img src="4_Images/FDA.jpg" alt="FDA" width="800">
+<img src="4_Images/FDA.jpg" alt="FDA" width="500">
 
 ## Description
 
