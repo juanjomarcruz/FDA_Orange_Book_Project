@@ -1,6 +1,6 @@
 # Healthcare Data Analysis Project: Patents & Exclusivities from FDA-approved drugs
 
-<img src="4_Images/FDA_logo_1.jpg" alt="FDA" width="500">
+<img src="4_Images/FDA_logo_1.png" alt="FDA" width="500">
 
 ## Description
 
