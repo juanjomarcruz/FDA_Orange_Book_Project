@@ -1,6 +1,6 @@
 # Healthcare Data Analysis Project: Patents & Exclusivities
 
-<img src="4_Images/FDA_sign.jpg" alt="FDA" width="500">
+<img src="4_Images/FDA_sign.jpg" alt="FDA" width="900">
 
 ## Description
 
