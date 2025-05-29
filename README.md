@@ -1,20 +1,17 @@
-# FDA Orange Book Data Project
+# Healthcare Data Analysis Project: Patents & Exclusivities from FDA-approved drugs
 
-<img src="4_Images/FDA.jpg" alt="FDA" width="500">
+<img src="4_Images/FDA_logo_1.jpg" alt="FDA" width="500">
 
 ## Description
 
-In this health data project, I've analyzed a dataset from the FDA Orange Book, a database published by the U.S. Food and Drug Administration (FDA) which provides information on:
+In this Healthcare Data Analysis Project, I've analyzed a dataset from the FDA Orange Book, a database published by the U.S. Food and Drug Administration (FDA) which provides information on FDA-approved chemical drugs, therapeutic equivalences between innovators & generic drugs, patents & market exclusivities.
 
-- **Approved Prescription Drugs** – Lists drugs that have been approved by the FDA for safety and efficacy.
-- **Therapeutic Equivalence (TE) Codes** – Indicates whether a generic drug is considered therapeutically equivalent to its brand-name counterpart.
-- **Patent and Exclusivity Information** – Shows the patent expiration dates and market exclusivity periods for drugs.
-- **New Drug Applications (NDA) & Abbreviated New Drug Applications (ANDA)** – Contains details on both innovator drugs (NDA) and generics (ANDA).
+The analysis has focused on gaining insights on **Patents and Exclusivities**...Which has been the patent submission trend over the last years? Which are the firms holding the highest number of patents? Which exclusivities are typically granted together?
 
-Why is the Orange Book important?
+Addresing these kind of questions is crucial to have a more deep understading of current drug competition in the US market and regulatory incentives granted by the FDA to foster drug development and accessibility.
 
-- Helps pharmacies and healthcare providers determine if a generic drug can be safely substituted for a brand-name drug.
-- Guides generic drug manufacturers on when they can enter the market based on patent and exclusivity expiration.
-- Assists regulators and researchers in tracking drug approvals and competition in the pharmaceutical industry.
+## Objective
 
-In this project, I have focused on gaining insights on **Patents and Exclusivities**. Which has been the patent submission trend over the last years? Which are the firms holding the highest number of patents? Which exclusivities are typically granted together? Addresing these kind of questions is crucial to have a more deep understading of the world of FDA drug approvals, drug market competition and regulatory incentives for drug development.
+To deliver a powerful tracking tool for assisting business strategists, regulators & market researchers in monitoring FDA drug approvals, US drug market competition and FDA-granted incentives in the pharmaceutical industry.
+
+## Structure
