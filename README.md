@@ -53,6 +53,72 @@ FDA_Orange_Book_Project/
 │   ├── 3_1_Project_Planning.docx
 │   ├── 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx
 │   └── 3_3_Dashboard_Design_Notes.docx
-├── FDA_Dashboard.pbix
+├── Dashboard_FDA.pbix
 └── README.md
 ```
+
+## Dataset Columns
+
+### Table 1: Products.txt
+
+**1. Ingredient (string)**: The active ingredient(s) for the product. Multiple ingredients are listed in alphabetical order, separated by a semicolon.
+
+**2. Dosage form; Route of Administration (string)**: The product dosage form and route, separated by a semicolon.
+
+**3. Trade Name (string)**: The trade name of the product as shown on the labeling.
+
+**4. Applicant (string)**: The firm name holding legal responsibility for the new drug application. Condensed to a maximum twenty-character unique string.
+
+**5. Strength (string)**: The potency of the active ingredient. May repeat for multiple part products.
+
+**6. New Drug Application Type (string)**: Type of drug application. "N" for innovator (NDA) and "A" for generic (ANDA).
+
+**7. New Drug Application (NDA) Number (string)**: The FDA-assigned number to the application. Format is nnnnnn.
+
+**8. Product Number (string)**: The FDA-assigned number to identify the application products. Each strength is a separate product. Format is nnn.
+
+**9. Therapeutic Equivalence (TE) Code (string)**: Indicates the therapeutic equivalence rating of generic to innovator prescription products.
+
+**10. Approval Date (date)**: The date the product was approved, in the format "Mmm dd, yyyy".
+
+**11. Reference Listed Drug (RLD) (string)**: Indicates whether the product is an RLD, approved under section 505(c) of the FD&C Act.
+
+**12. Reference Standard (RS) (string)**: Indicates whether the product is a reference standard used in bioequivalence studies.
+
+**13. Type (string)**: Indicates the category of approved drugs. Format: RX (prescription), OTC (over-the-counter), DISCN (discontinued).
+
+**14. Applicant Full Name (string)**: Full name of the firm holding legal responsibility for the application.
+
+### Table 2: Patent.txt
+
+**1. New Drug Application Type (string)**: Type of drug application. "N" for innovator (NDA) and "A" for generic (ANDA).
+
+**2. New Drug Application (NDA) Number (string)**: The FDA-assigned number to the application. Format is nnnnnn.
+
+**3. Product Number (string)**: The FDA-assigned number to identify the application products. Format is nnn.
+
+**4. Patent Number (string)**: Patent numbers submitted by the applicant. Format is numeric.
+
+**5. Patent Expire Date (date)**: The date the patent expires. Format is "MMM DD, YYYY".
+
+**6. Drug Substance Flag (string)**: Indicates whether the patent claims the drug substance. Format is "Y" or null.
+
+**7. Drug Product Flag (string)**: Indicates whether the patent claims the drug product. Format is "Y" or null.
+
+**8. Patent Use Code (string)**: Code to designate a use patent for the approved indication or use of the drug product.
+
+**9. Patent Delist Request Flag (string)**: Indicates whether the sponsor has requested the patent to be delisted. Format is "Y" or null.
+
+**10. Patent Submission Date (date)**: Date the FDA received patent information. Format is "Mmm d, yyyy".
+
+### Table 3: Exclusivity.txt
+
+**1. New Drug Application Type (string)**: Type of drug application. "N" for innovator (NDA) and "A" for generic (ANDA).
+
+**2. New Drug Application (NDA) Number (string)**: The FDA-assigned number to the application. Format is nnnnnn.
+
+**3. Product Number (string)**: The FDA-assigned number to identify the application products. Format is nnn.
+
+**4. Exclusivity Code (string)**: Code indicating the type of exclusivity granted by the FDA.
+
+**5. Exclusivity Date (date)**: The date the exclusivity expires. Format is "MMM DD, YYYY".
