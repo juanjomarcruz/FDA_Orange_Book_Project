@@ -4,7 +4,7 @@
 
 ## Description
 
-In this Healthcare Data Analysis Project, I've analyzed a dataset from the **FDA Orange Book**, a database published by the U.S. Food and Drug Administration (FDA) which provides information on FDA-approved chemical drugs, therapeutic equivalences between innovators & generic drugs, patents & market exclusivities.
+In this Healthcare Data Analysis Project, I've analyzed a dataset from the **FDA Orange Book**, a database published by the U.S. Food and Drug Administration (FDA) which provides information on FDA-approved drug products, therapeutic equivalences between innovators & generic drugs, patents & market exclusivities.
 
 The analysis has focused on gaining insights on **Patents and Exclusivities**...Which has been the patent submission trend over the last years? Which are the firms holding the highest number of patents? Which exclusivities are typically granted together?
 
@@ -19,7 +19,10 @@ To deliver a **powerful tracking tool** for assisting business strategists, regu
 ```bash
 FDA_Orange_Book_Project/
 ├── 0_Images/ #contains the images used for the project's README and dashboard.
-│   ├── dashboard.png
+│   ├── dashboard_1.png
+│   ├── dashboard_2.png
+│   ├── dashboard_3.png
+│   ├── dashboard_4.png
 │   ├── drug_products.png
 │   ├── FDA_logo.png
 │   ├── FDA_sign.png
@@ -129,3 +132,55 @@ FDA_Orange_Book_Project/
 **4. Exclusivity Code (string)**: Code indicating the type of exclusivity granted by the FDA.
 
 **5. Exclusivity Date (date)**: The date the exclusivity expires. Format is "MMM DD, YYYY".
+
+## Which steps have I followed?
+
+### 1. Pre-Analysis
+
+In order to come up with insightful questions to answer when analysing the dataset is crucial to understand all data fields. For that reason, I first revised the metadata provided by the FDA where I made some notes and pointed out interesting questions to answer.
+
+### 2. Data Cleaning and Transformation
+
+The next step was to dive into the dataset. To explore the dataset I opted to use pandas, a python library very useful for data manipulation, cleaning and transformation.
+
+### 3. Exploratory Data Analysis (EDA):
+
+Once I had cleaned and transformed the dataset, I performed univariate and multivariate analysis on numerical, categorical and date columns. For this aim, I chose the most popular data visualization libraries in python: matplotlib and seaborn.
+
+### 4. Interactive Dashboard:
+
+Finally, I completed the development of an interactive dashboard showcasing key performance indicators (KPIs) and the most insightful visualizations related to the FDA Orange Book Database. As the project’s final deliverable, the dashboard enables business strategists, regulators, and market researchers to quickly detect patterns on FDA drug applications, generic drug competition in the US market and FDA exclusivity grants to support better decision-making.
+
+## Main Insights
+
+**1.** The general Churn Rate went up to the 27% for the period between January 2020 and December 2023.
+
+**2.** Churned subscribers were charged almost a 5% more per month than average.
+
+**3.** Once the customer calls the service for the 3rd time, the probability of cancelling gets higher than keeping subscribed, reaching almost the 90% and increasing with further calls.
+
+**4.** The top reasons for churn have to be with the competitor offering a better product and the attitude of the customer service.
+
+**5.** Customer attrition gets reduced by a 20% after reaching one year of membership and continues decreasing until insignificant values as the account gets longer.
+
+**6.** Month-to-month contracts significantly favour subscription cancellation versus year contracts. Moreover, subscribers in a month-to-month contract have more probability to leave the platform than to stay enrolled when they pay by direct debit or paper check.
+
+**7.** During the analysed period, August has always been a month with many cancellations. However, surprisingly, since 2021, March has also showed a similar behaviour, being the month with the highest churn rates in 2021 and 2023.
+
+## Author
+
+- Juanjo Martínez Cruz [LinkedIn](https://www.linkedin.com/in/juan-jose-mt-cruz)
+
+## Contributions
+
+Do not hesitate to contact me if you want to contribute to this project. I will be glad to open any discussion on my [LinkedIn](https://www.linkedin.com/in/juan-jose-mt-cruz) profile.
+
+## The Project's Deliverable
+
+<img src="0_Images/dashboard_1.png" alt="Dashboard" width="900"/>
+
+<img src="0_Images/dashboard_2.png" alt="Dashboard" width="900"/>
+
+<img src="0_Images/dashboard_3.png" alt="Dashboard" width="900"/>
+
+<img src="0_Images/dashboard_4.png" alt="Dashboard" width="900"/>
