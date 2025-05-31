@@ -25,34 +25,41 @@ FDA_Orange_Book_Project/
 │   ├── FDA_sign.png
 │   ├── help.png
 │   └── patent.png
+│
 ├── 1_Data/
 │   └── Data_Raw/ #includes only the raw data, without transformations or cleanage.
 │   │   ├── exclusivity_raw.txt
 │   │   ├── patent_raw.txt
 │   │   ├── patent_use_codes_raw.xlsx
 │   │   └── products_raw.txt
+│   │
 │   └── Data_Transformed/ #includes data cleaning and transformations.
 │   │   ├── exclusivity_tr.xlsx
 │   │   ├── patent_tr.xlsx
 │   │   └── products_tr.xlsx
+│   │
 │   └── Metadata/ #includes additional info on data to give context.
 │      ├── Column_Definitions.docx #column definitions for each table (products, patents and exclusivities) together with pre-analysis notes on columns.
 │      ├── Exclusivities_Explanation.docx #explanations on how exclusivities can complement patents.
 │      ├── FDA_Issue_Patents_Exclusivities.pdf #FDA document on Patents & Exclusivities.
 │      └── FDA_PPT_Exclusivities.pdf #FDA PowerPoint with more explanations and examples on Exclusivity types.
+│
 ├── 2_Jupyter_Notebooks/
 │   └── 2_1_Data_Processing/ #includes data cleaning & transformation of each table using python data processing libraries: numpy & pandas.
 │   │   ├── pre_analysis_cleaning_transformation_ex.ipynb
 │   │   ├── pre_analysis_cleaning_transformation_pat.ipynb
 │   │   └── pre_analysis_cleaning_transformation_prod.ipynb
+│   │
 │   └── 2_2_Exploratory_Data_Analysis/ #includes exploratory data analysis of each table using python visualization libraries: matplotlib & seaborn.
 │       ├── EDA_ex.ipynb
 │       ├── EDA_pat.ipynbb
 │       └── EDA_prod.ipynb
+│
 ├── 3_Project_Notes/ #includes my personal notes with my initial planning, captured insights and dashboard design drafts.
 │   ├── 3_1_Project_Planning.docx
 │   ├── 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx
 │   └── 3_3_Dashboard_Design_Notes.docx
+│
 ├── Dashboard_FDA.pbix
 └── README.md
 ```
