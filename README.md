@@ -6,7 +6,7 @@
 
 In this Healthcare Data Analysis Project, I've analyzed a dataset from the **FDA Orange Book**, a database published by the U.S. Food and Drug Administration (FDA) which provides information on FDA-approved drug products, therapeutic equivalences between innovators & generic drugs, patents & market exclusivities.
 
-The analysis has focused on gaining insights on **Patents and Exclusivities**...Which has been the patent submission trend over the last years? Which are the firms holding the highest number of patents? Which exclusivities are typically granted together?
+The analysis has focused on gaining insights on **Patents and Exclusivities**: Which has been the patent submission trend over the last years? Which are the firms holding the highest number of patents? Which exclusivities are typically granted together?
 
 Addresing these kind of questions is crucial to have a more deep understading of current drug competition in the US market and regulatory incentives granted by the FDA to foster drug development and accessibility.
 
@@ -63,7 +63,7 @@ FDA_Orange_Book_Project/
 │   ├── 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx
 │   └── 3_3_Dashboard_Design_Notes.docx
 │
-├── Dashboard_FDA.pbix
+├── Dashboard_FDA.pbix #the project's deliverable.
 └── README.md
 ```
 
@@ -133,39 +133,36 @@ FDA_Orange_Book_Project/
 
 **5. Exclusivity Date (date)**: The date the exclusivity expires. Format is "MMM DD, YYYY".
 
-## Which steps have I followed?
+## Which steps did I follow?
 
 ### 1. Pre-Analysis
 
-In order to come up with insightful questions to answer when analysing the dataset is crucial to understand all data fields. For that reason, I first revised the metadata provided by the FDA where I made some notes and pointed out interesting questions to answer.
+In order to come up with insightful questions to answer when analysing the dataset it was crucial to understand all data fields. For that reason, I first revised the metadata provided by the FDA where I made some notes and pointed out interesting questions to answer.
 
 ### 2. Data Cleaning and Transformation
 
-The next step was to dive into the dataset. To explore the dataset I opted to use pandas, a python library very useful for data manipulation, cleaning and transformation.
+The next step was to dive into the dataset. To explore the dataset I opted to use pandas, a python library very useful for data manipulation. Some of the cleaning and transformations I applied:
+
+- Column names standarization.
+- Data types correction.
+- Duplicates removal.
+- Filling null values.
+- Creation of conditional columns to label data.
+- Columns splitting.
+- Mapping column values (Patent Use Codes, Exclusivity Codes) with dictionary values (Definitions).
+- Turning column values into more comprehensive ones with string manipulation functions.
 
 ### 3. Exploratory Data Analysis (EDA):
 
-Once I had cleaned and transformed the dataset, I performed univariate and multivariate analysis on numerical, categorical and date columns. For this aim, I chose the most popular data visualization libraries in python: matplotlib and seaborn.
+Once I had cleaned and transformed the dataset, I performed univariate and multivariate analysis on numerical, categorical and date columns. For this aim, I chose the most popular data visualization libraries in python: matplotlib and seaborn. While I was performing this task, I gathered the extracted insights in the Word file 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx .
 
 ### 4. Interactive Dashboard:
 
-Finally, I completed the development of an interactive dashboard showcasing key performance indicators (KPIs) and the most insightful visualizations related to the FDA Orange Book Database. As the project’s final deliverable, the dashboard enables business strategists, regulators, and market researchers to quickly detect patterns on FDA drug applications, generic drug competition in the US market and FDA exclusivity grants to support better decision-making.
+Finally, I successfully developed an interactive dashboard that presents key performance indicators and clear, insightful visualizations, offering an at-a-glance view of critical data. As the final deliverable of the project, the dashboard enables business strategists, regulators, and market researchers to quickly identify trends in FDA drug product applications, generic drug competition in the US market, and FDA exclusivity grants. This powerful monitoring tool equips pharmaceutical stakeholders to take the temperature of the US market, understand its dynamics, and orient or refine their strategies.
 
 ## Main Insights
 
-**1.** The general Churn Rate went up to the 27% for the period between January 2020 and December 2023.
-
-**2.** Churned subscribers were charged almost a 5% more per month than average.
-
-**3.** Once the customer calls the service for the 3rd time, the probability of cancelling gets higher than keeping subscribed, reaching almost the 90% and increasing with further calls.
-
-**4.** The top reasons for churn have to be with the competitor offering a better product and the attitude of the customer service.
-
-**5.** Customer attrition gets reduced by a 20% after reaching one year of membership and continues decreasing until insignificant values as the account gets longer.
-
-**6.** Month-to-month contracts significantly favour subscription cancellation versus year contracts. Moreover, subscribers in a month-to-month contract have more probability to leave the platform than to stay enrolled when they pay by direct debit or paper check.
-
-**7.** During the analysed period, August has always been a month with many cancellations. However, surprisingly, since 2021, March has also showed a similar behaviour, being the month with the highest churn rates in 2021 and 2023.
+**1.**
 
 ## Author
 
