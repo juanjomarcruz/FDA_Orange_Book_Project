@@ -149,12 +149,12 @@ The next step was to dive into the dataset. To explore the dataset I opted to us
 - Filling null values.
 - Creation of conditional columns to label data.
 - Columns splitting.
-- Mapping column values (Patent Use Codes, Exclusivity Codes) with dictionary values (Definitions).
+- Mapping column values (Patent Use Codes, Exclusivity Codes) with associated definitions using dictionaries.
 - Turning column values into more comprehensive ones with string manipulation functions.
 
 ### 3. Exploratory Data Analysis (EDA):
 
-Once I had cleaned and transformed the dataset, I performed univariate and multivariate analysis on numerical, categorical and date columns. For this aim, I chose the most popular data visualization libraries in python: matplotlib and seaborn. While I was performing this task, I gathered the extracted insights in the Word file 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx .
+Once I had cleaned and transformed the dataset, I performed univariate and multivariate analysis on numerical, categorical and date columns. For this aim, I chose the most popular data visualization libraries in python: matplotlib and seaborn. While I was performing this task, I gathered the extracted insights in the Word file 3_2_Pre_Analysis_Clean_Transf_EDA_Notes.docx.
 
 ### 4. Interactive Dashboard:
 
@@ -162,7 +162,15 @@ Finally, I successfully developed an interactive dashboard that presents key per
 
 ## Main Insights
 
-**1.**
+**1.** The number of FDA-approved drug products (46,050) is nearly double the number of FDA drug applications (26,122), indicating that grouping multiple drug products under a single application is a common practice. Frequently, applicants include different strengths of the same drug in one application. In other cases, a product may consist of multiple components—for example, a vial containing powder and a separate diluent used for reconstitution.
+
+**2.** Today, generic drug products represent approximately 80% of the total US market. To reach this level, unlike New Drug Applications (NDAs), the number of Abbreviated New Drug Application (ANDA) submissions has increased sharply since 2000. In that year, generic applications already doubled the number of innovator applications. Twenty-four years later, generic applications are eight times more common, while NDA submissions have remained relatively stable at around 100 per year. A key driver of this rapid growth in the generic drug market has been the FDA’s strong regulatory strategy, supported by targeted policies aimed at encouraging generic drug manufacturing and improving market accessibility. Some of these policies include the Generic Drug User Fee Amendments (2012) or the The Drug Competition Action Plan (2017).
+
+**3.** The Top Applicants in terms of number of FDA-approved drugs are the following: the innovator Rx drugs market in the US is lead by Baxter Healthcare Corp. (227), Pfizer Inc. (141) and Hospira Inc. (131).In fact, the latter was adquired by Pfizer so, in real terms, Pfizer Inc. holds the first place. As regards the innovator OTC drugs US market, it is lead by Haleon US Holdings LLC. On the other hand, the first position in the generic drug US market for both Rx and OTC is Aurobindo Pharma LTD, an indian company settled in Hyderabad.
+
+**4.** In both markets (generics and innovators), tablets and injectables hold the first and second place, respectively. The most probable reason is their well-known, standarized and scalable manufacturing processes. Moreover, tablets remain the first option when developing a new drug mainly due to less strict regulatory and technical requirements.
+
+**5.** In terms of ingredients, levothyroxine sodium was the most common API within innovator Rx drugs.
 
 ## Author
 
